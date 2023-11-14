@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- The reset file should load first to avoid reverting styles -->
+  <link rel="stylesheet" href="./assets/reset.css"/>
+  <link rel="stylesheet" href="./assets/style.css"/>
+  <title>Portfolio-Harika</title>
 </head>
 <body>
+  <!--Header -->
+  <header class="header-footer">
+    <h1 class="text"><span>Harika Patha</span></h1>
+    <div>
+      <ul>
+        <li><a href="#about-me"><span>About Me</span></a></li>
+        <li><a href="#my-work"><span>My Work</span></a></li>
+        <li><a href="#contact-me"><span>Contact Me</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!--Image of mine--> 
+  <figure class="figure">
+    <img class="image" src="./images/Harika_Bitmoji.png" alt="Image" width="300" height="200"/>
+    <p>Created My First Portfolio</p>
+  </figure>
+
+  <main>
+    <section id="about-me" class="aboutme code-card row justify-center">
+      <h2 class="card-header">About Me</h2>
+      <p>
+        Greetings! I'm Harika, 
+        a seasoned Software Manual Test Engineer driven by a passion
+        for ensuring the highest quality in software applications.
+        With 3 years of hands-on experience, I specialize in the meticulous art of manual testing, 
+        where each click and keystroke is an exploration to 
+       guarantee a flawless user experience.  
+     </p>
+    </section>
+
+    <div id="my-work" class="mywork">
+    <h2>My Work</h2>
+    </div>
+
+    <section class="row justify-center">
+
+    <div class="card-column">
+      <figure class="card code-card">
+        <h3 class="card-header">S/W Engineer</h3>
+        <img alt="Img1" src="./images/test_engineer.jpeg"/>
+      </figure>
+    </div>
+
+    <div class="card-column">
+      <figure class="card code-card">
+        <h3 class="card-header">Artist</h3>
+        <img alt="Img2" src="./images/artist.jpeg"/>
+      </figure>
+    </div>
+
+    <div class="card-column">
+      <figure class="card code-card">
+        <h3 class="card-header">Nature</h3>
+        <img alt="Img3" src="./images/Nature.jpeg"/>
+      </figure>
+    </div>
+
+    <div class="card-column">
+      <figure class="card code-card">
+        <h3 class="card-header">My Likes</h3>
+        <img src="./images/good_one.png" alt="Image" width="300" height="200"/>
+      </figure>
+    </div>
+        
+    </section>
     
+  </main>
+
+
+ <!--Footer-->
+  <footer id="footer" class="header-footer">
+    <h1 class="text"><span> Contact Me</span></h1>
+    <div id="contact-me">  
+       <ul>
+            <li><a arial="email" href="harikanap@gmail.com">
+            <span>Email</span> </a></li>
+            <li><a arial="fb" href="https://www.facebook.com">
+            <span>facebook</span></a></li>
+            <li><a arial="LinkedIN" href="https://linkeIn.com">
+            <span>LinkedIn</span></a></li>
+      </ul></div>
+  </footer>
 </body>
-</html>
+
